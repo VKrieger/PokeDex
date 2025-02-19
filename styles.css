@@ -1,0 +1,145 @@
+* {
+  background-color: rgb(27, 27, 48);
+  color: white;
+  max-height: 956px;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-set {
+  background-color: rgb(249, 249, 249);
+  color: black;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-set label {
+  background-color: inherit;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 7.5px;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+#search-input {
+  flex-grow: 2;
+  background-color: white;
+  color: #333;
+  font-size: 1rem;
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#search-button {
+  background-color: #e11915e1;
+  color: #333;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 7.5px;
+}
+
+#search-button:active {
+  box-shadow: 2px 2px 5px #c24a4a;
+}
+
+.poke-image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(202, 202, 202, 0.2);
+
+  height: 335px;
+  padding: 10px;
+}
+
+#sprite {
+  background-color: rgba(202, 202, 202, 0);
+  width: 250px;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.poke-image-card p,
+.poke-image-card div {
+  background-color: rgba(202, 202, 202, 0);
+  color: #333;
+  padding: 0;
+  margin: 1px 0;
+}
+
+.name_id {
+  display: flex;
+  gap: 5px;
+  text-align: left;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.weight_height {
+  display: flex;
+  gap: 5px;
+  text-align: left;
+}
+
+#types {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+#types p {
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: black;
+}
+
+#grass {
+  background-color: #7c5;
+}
+#poison {
+  background-color: #a59;
+}
+
+.poke-stats {
+  width: 100%;
+
+  background-color: inherit;
+  height: 335px;
+}
+
+.poke-stats table {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-spacing: 6px;
+}
+
+.poke-stats tbody tr th {
+  font-size: 1.1rem;
+}
+
+.poke-stats tbody tr td,
+.poke-stats tbody tr th {
+  background-color: #7e0bea;
+  border-radius: 3px;
+}

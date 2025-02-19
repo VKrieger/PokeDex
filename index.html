@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>PokéDex</h1>
+    </header>
+    <main>
+      <div class="card-set">
+        <label for="search-input">Search for Pokemon Name or ID:</label>
+        <div class="input">
+          <input id="search-input" type="text" name="pokemon" required />
+          <button id="search-button">Search</button>
+        </div>
+        <div class="poke-image-card">
+          <div class="name_id">
+            <p id="pokemon-name">Balbasur</p>
+            <p id="pokemon-id">#1</p>
+          </div>
+          <div class="weight_height">
+            <p id="weight">Weight: 69</p>
+            <p id="height">Height: 7</p>
+          </div>
+          <img id="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+          <div id="types">
+            <p id="grass">Grass</p>
+            <p id="poison">Poison</p>
+          </div>
+        </div>
+        <div class="poke-stats">
+          <table>
+            <tbody>
+              <tr>
+                <th>Base</th>
+                <th>Stats</th>
+              </tr>
+              <tr>
+                <td>HP:</td>
+                <td id="hp">45</td>
+              </tr>
+              <tr>
+                <td>Attack</td>
+                <td id="attack">49</td>
+              </tr>
+              <tr>
+                <td>Defense</td>
+                <td id="defense">49</td>
+              </tr>
+              <tr>
+                <td>Special Attack</td>
+                <td id="special_attack">65</td>
+              </tr>
+              <tr>
+                <td>Special Defense</td>
+                <td id="special_defense">65</td>
+              </tr>
+              <tr>
+                <td>Speed</td>
+                <td id="speed">45</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
