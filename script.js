@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const input = document.getElementById("search-input");
-  const searchButton = document.getElementById("search-button");
+  const searchForm = document.getElementById("input");
 
   const pokemonText = {
     name_id: document.getElementById("name_id"),
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     pokemonText.types.innerHTML = "";
   };
 
-  searchButton.addEventListener("click", (e) => {
+  searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     getPokemon();
   });

@@ -27,7 +27,7 @@ body {
   font-size: 1.25rem;
 }
 
-.input {
+#input {
   display: flex;
   flex-direction: row;
   gap: 5px;
