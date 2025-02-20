@@ -86,8 +86,8 @@ body {
   margin: 1px 0;
 }
 
-.name_id {
-  display: flex;
+#name_id {
+  display: none;
   gap: 5px;
   text-align: left;
   font-weight: bold;
@@ -96,8 +96,8 @@ body {
   text-transform: uppercase;
 }
 
-.weight_height {
-  display: flex;
+#weight_height {
+  display: none;
   gap: 5px;
   text-align: left;
 }
