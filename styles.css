@@ -1,11 +1,11 @@
 * {
   background-color: rgb(27, 27, 48);
   color: white;
+
   max-height: 956px;
 }
 
 body {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,9 +16,9 @@ body {
 .card-set {
   background-color: rgb(249, 249, 249);
   color: black;
-  width: 400px;
+  width: 375px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .card-set label {
@@ -66,20 +66,20 @@ body {
   justify-content: center;
   background-color: rgba(202, 202, 202, 0.2);
 
-  height: 335px;
+  height: 290px;
   padding: 10px;
 }
 
 #sprite {
   background-color: rgba(202, 202, 202, 0);
-  width: 250px;
+  width: 225px;
   height: auto;
   padding: 0;
   margin: 0 auto;
 }
 
 .poke-image-card p,
-.poke-image-card div {
+.poke-image-card div, .poke-image-card span {
   background-color: rgba(202, 202, 202, 0);
   color: #333;
   padding: 0;
@@ -93,6 +93,7 @@ body {
   font-weight: bold;
   justify-content: flex-start;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .weight_height {
@@ -110,7 +111,10 @@ body {
 #types p {
   border-radius: 10px;
   padding: 5px 10px;
-  color: black;
+  color: #333;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  text-transform: uppercase;
 }
 
 #grass {
@@ -119,12 +123,60 @@ body {
 #poison {
   background-color: #a59;
 }
+#normal {
+  background-color: #aa9;
+}
+#fire {
+  background-color: #f42;
+}
+#water {
+  background-color: #39f;
+}
+#electric {
+  background-color: #fc3;
+}
+#ice {
+  background-color: #6cf;
+}
+#fighting {
+  background-color: #b54;
+}
+#ground {
+  background-color: #db5;
+}
+#flying {
+  background-color: #89f;
+}
+#psychic {
+  background-color: #f59;
+}
+#bug {
+  background-color: #ab2;
+}
+#rock {
+  background-color: #ba6;
+}
+#ghost {
+  background-color: #66b;
+}
+#dragon {
+  background-color: #76e;
+}
+#dark {
+  background-color: #754;
+}
+#steel {
+  background-color: #aab;
+}
+#fairy {
+  background-color: #e9e;
+}
 
 .poke-stats {
   width: 100%;
 
   background-color: inherit;
-  height: 335px;
+  height: 290px;
 }
 
 .poke-stats table {
